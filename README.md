@@ -1,5 +1,5 @@
 # Question-Answer Generator
-For each uploaded file, the streamlit app creates a specified number of comprehension, 'why', and 'how' questions along with the answers.
+For each uploaded file (pdf, docx, txt), the streamlit app creates a specified number of comprehension, 'why', and 'how' questions along with the answers.
 
 
 ## Demo
@@ -13,7 +13,7 @@ For each uploaded file, the streamlit app creates a specified number of comprehe
 ## Description
 
 
-This project is a Python-based streamlit implementation that utilizes OpenAI's GPT models to create questions and answers, extracting information from text files.
+This project is a Python-based streamlit implementation that utilizes OpenAI's GPT models to create questions and answers, extracting information from text (pdf, docx, txt) files.
 
 ## Installation
 
