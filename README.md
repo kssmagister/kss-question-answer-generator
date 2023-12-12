@@ -19,7 +19,7 @@ This project is a Python-based streamlit implementation that utilizes OpenAI's G
 
 ### Prerequisites
 
-* Python 3.6 or higher
+* Python 3.10 or higher
 * virtualenv
 
 ### Setup
