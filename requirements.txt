@@ -61,7 +61,6 @@ langchain==0.0.348
 langchain-core==0.0.12
 langcodes==3.3.0
 langsmith==0.0.69
-llama-index==0.9.21
 log-symbols==0.0.14
 lxml==4.9.3
 markdown-it-py==3.0.0
