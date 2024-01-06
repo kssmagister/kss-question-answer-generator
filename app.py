@@ -89,7 +89,7 @@ def main():
                         questions_and_answers = generate_questions_and_answers(api_key, section, num_comprehension, num_why, num_how, model_choice)
                         entire_content += questions_and_answers + "\n\n<- - - - - - - - - ->\n\n"
 
-            file_name = f"AI-Questions-{datetime.datetime.now().strftime('%Y-%m-%d')}.txt"
+            file_name = f"AI-Questions-{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M')}.txt"
             with tempfile.NamedTemporaryFile(delete=False, suffix='.txt', mode='w') as fp:
                 fp.write(entire_content)
                 download_fn = fp.name
